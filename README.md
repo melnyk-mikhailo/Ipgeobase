@@ -21,7 +21,7 @@ Or install it yourself as:
     $ gem install Ipgeobase
 
 ## Usage
-'''ruby
+```ruby
 meta = Ipgeobase.lookup('9.9.9.9')
 meta.country # United States
 meta.countryCode # US
